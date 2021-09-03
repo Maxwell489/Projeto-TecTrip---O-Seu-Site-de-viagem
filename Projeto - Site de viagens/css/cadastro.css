@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Area de menu*/
+#cabecalho{
+    text-align: center;
+    padding: 20px;
+    background-color: #D64242;
+}
+
+h1{
+    font-family: initial;
+}
+
+span{
+    color: lavender;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    font-style: inherit;
+
+}
+
+li  {
+    margin-right: 80px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*-----------------------------------------*/
+
+#formulario{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background-color: #D64242;
+    border-radius: 10px;
+}
+
+.nome{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.data{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.sexo{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.email{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.senha{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.estado{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.observacoes{
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.finalizacao{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+#finalize{
+    padding: 5px;
+    
+}
+
+#volta{
+    text-decoration: none;
+    position: absolute;
+    left: 600px;
+    top: 600px;
+    color: black;
+}
+
+#volta a:hover{
+    text-decoration: underline;
+    background-color: #D64242;
+    text-decoration: none;
+    padding: 10px;
+}

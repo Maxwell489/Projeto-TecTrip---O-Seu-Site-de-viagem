@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Area de menu*/
+body{
+    background-color: antiquewhite;
+}
+
+#cabecalho{
+    text-align: center;
+    padding: 20px;
+    background-color: #D64242;
+}
+
+h1{
+    font-family: initial;
+}
+
+span{
+    color: lavender;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    font-style: inherit;
+
+}
+
+li  {
+    margin-right: 80px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/*-----------------------------------------*/
+
