@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Area de menu*/
+body{
+    background-color: antiquewhite;
+}
+
+#cabecalho{
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #D64242;
+}
+
+.cabecalho--nav ul{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+}
+
+.cabecalho--nav li a{
+    margin: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/*-----------------------------------------*/
+
+#formulario{
+    width: 30%;
+    height: 60%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    background-color: #D64242;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+
+.nome{
+    padding: 1rem;
+}
+
+.data{
+    padding: 1rem;
+}
+
+.sexo{
+    padding: 1rem;
+}
+
+.email{
+    padding: 1rem;
+}
+
+.senha{
+    padding: 1rem;
+}
+
+.estado{
+    padding: 1rem;
+}
+
+.observacoes{
+    padding: 1rem;
+}
+
+.finalizacao{
+    padding: 1rem;
+}
+
+.finalize{
+    padding: 15px;
+    width: 50%;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.volta{
+    text-decoration: none;
+    position: absolute;
+    left: 48%;
+    top: 95%;
+    color: black;
+}
+
+.volta a:hover{
+    text-decoration: underline;
+    background-color: #D64242;
+    text-decoration: none;
+    padding: 10px;
+}

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Area de menu*/
+body{
+    background-color: antiquewhite;
+}
+
+#cabecalho{
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #D64242;
+}
+
+.cabecalho--nav ul{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+}
+
+.cabecalho--nav li a{
+    margin: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/*-----------------------------------------*/
+
+.container{
+    display: flex;
+}
+
+#conteudo1{
+    width: 50%;
+}
+
+.titulo--c1{
+    border-radius: 10px;
+    padding: 1rem;
+    background: #D64242;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem 0 1rem 1rem;
+    width: 90%;
+}
+
+.texto--c1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem;
+    width: 90%;
+
+}
+
+
+.imagem--c1{
+    border: 5px solid #D64242;
+    border-radius: 10px;
+    width: 90%;
+    height: 50%;
+    margin: 1rem;
+}
+
+#conteudo2{
+    width: 50%;
+}
+
+.imagem--c2{
+    border: 5px solid #D64242;
+    border-radius: 10px;
+    width: 90%;
+    height: 45%;
+    margin: 1.5rem;
+    
+}
+
+
+
+.ajuda{
+    padding: 1rem 0 1rem 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #D64242;
+    text-align: center;
+    margin: 1.5rem auto;
+    width: 90%;
+
+    
+}
+
+.contatos{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1.5rem auto;
+    text-align: center;
+}

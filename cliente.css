@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Area de menu*/
+body{
+    background-color: antiquewhite;
+}
+
+#cabecalho{
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #D64242;
+}
+
+.cabecalho--nav ul{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+}
+
+.cabecalho--nav li a{
+    margin: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/*------------------------------------------------------*/
+
+#formulario{
+    width: 30%;
+    height: 35%;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #D64242;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.input{
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo{
+    margin: 10px 0 10px 0;
+}
+
+.login{
+    padding: 15px;
+    width: 50%;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#linkcadastro{
+    position: absolute;
+    left: 40%;
+    top: 80%;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+#linkcadastro a:hover{
+    text-decoration: underline;
+    background-color: #D64242;
+    text-decoration: none;
+    padding: 10px;
+}

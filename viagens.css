@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Area de menu*/
+body{
+    background-color: antiquewhite;
+}
+
+#cabecalho{
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #D64242;
+}
+
+.cabecalho--nav ul{
+    display: flex;
+    margin: 1.5rem;
+    list-style: none;
+}
+
+.cabecalho--nav li a{
+    margin: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+/*-----------------------------------------*/
+
+.viagens{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem{
+    width: 50%;
+    margin: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.texto{
+    display: flex;
+    text-align: center;
+    background-color: #D64242;
+    border-radius: 100px;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+    position: relative;
+    left: 30%;
+    flex-direction: column;
+
+}
+
+.texto a{
+    color: black;
+}
+
+.viagem--cancun{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 2rem;
+}
+
+.viagem--la{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+}
+
+.viagem--brasil{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 2rem;
+}
